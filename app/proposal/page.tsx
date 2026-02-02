@@ -12,6 +12,7 @@ const pleadingMessages = [
   "I'll fast for 40 days and 40 nights 🥺",
   "Biko!! 🙏💔✨",
   "What if I kneel properly? 💍",
+  "Click yes nauuu "
 ];
 
 export default function Proposal() {
@@ -128,7 +129,7 @@ export default function Proposal() {
 
           <div className="bg-gray-900/80 border border-pink-500/40 rounded-2xl p-6 shadow-xl">
             <p className="text-pink-100 text-lg leading-relaxed">
-              I promise to love you deeply, loudly, and endlessly 💕  
+              Await my gift  💕  
               Forever starts now.
             </p>
           </div>
@@ -136,7 +137,7 @@ export default function Proposal() {
           <Link href="/">
             <button className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-pink-600 to-red-600
                                text-white font-bold shadow-lg active:scale-95 transition">
-              Start Over 🔄
+              Start Over 
             </button>
           </Link>
 
