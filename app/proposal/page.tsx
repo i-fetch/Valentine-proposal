@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const pleadingMessages = [
   "Are you sure? 🥺",
@@ -94,7 +95,7 @@ export default function Proposal() {
               className="bg-gradient-to-r from-green-500 to-emerald-600
                          text-white font-black rounded-full
                          px-10 py-4 text-[clamp(1.1rem,4vw,1.5rem)]
-                         shadow-xl active:scale-95 transition"
+                         shadow-xl active:scale-95 transition hover:scale-110"
             >
               Yes 💚
             </button>
@@ -116,11 +117,21 @@ export default function Proposal() {
 
         </main>
       ) : (
-        <main className="relative z-10 flex flex-col items-center text-center gap-8 max-w-xl">
+        <main className="relative z-10 flex flex-col items-center text-center gap-8 max-w-xl w-full">
+
+          {/* Celebratory GIF */}
+          <div className="w-full max-w-md h-64 md:h-80 mb-6 relative">
+            <img
+              src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdveDE4YjdybWhwOXRsdGg1c3c2emZjZjh1dzhibWx3aDJweHk4MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1JmGiBtqTuehfYxuy9/giphy.gif"
+              alt="Celebration"
+              className="w-full h-full object-cover rounded-3xl shadow-2xl border-2 border-pink-500/50"
+            />
+          </div>
 
           <h2 className="font-black text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400
                          text-[clamp(3rem,10vw,5rem)] animate-bounce">
             YES!!! 💖
+            
           </h2>
 
           <p className="text-[clamp(1.5rem,6vw,2.2rem)] font-bold text-pink-200">
@@ -136,7 +147,7 @@ export default function Proposal() {
 
           <Link href="/">
             <button className="mt-4 px-8 py-3 rounded-full bg-gradient-to-r from-pink-600 to-red-600
-                               text-white font-bold shadow-lg active:scale-95 transition">
+                               text-white font-bold shadow-lg active:scale-95 transition hover:scale-110">
               Start Over 
             </button>
           </Link>
