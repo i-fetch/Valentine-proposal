@@ -57,7 +57,7 @@ export default function Poems() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-rose-300 via-pink-200 to-purple-200">
       <main className="flex flex-col items-center justify-center text-center px-6 py-8 gap-8 max-w-2xl">
         <h2 className="text-4xl md:text-5xl font-bold text-rose-900">
-          Poetry for You 🌹
+          Poetry for You 
         </h2>
 
         {/* Poem Card */}
@@ -97,6 +97,7 @@ export default function Poems() {
             <button
               key={index}
               onClick={() => setCurrentIndex(index)}
+              title={`Go to poem ${index + 1}`}
               className={`h-3 w-3 rounded-full transition-all ${
                 index === currentIndex
                   ? 'bg-red-500 scale-125'

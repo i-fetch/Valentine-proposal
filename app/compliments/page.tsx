@@ -4,15 +4,11 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const compliments = [
-  "Your smile lights up the entire room ✨",
-  "Your beauty is not just external, your heart is even more beautiful 💖",
   "The way you carry yourself with such grace and elegance is mesmerizing 👑",
-  "Your eyes hold entire universes of warmth and kindness 🌟",
-  "The natural way you care for others makes you absolutely radiant 🌹",
-  "Your presence alone makes any moment feel special 💫",
-  "The confidence you have is truly inspiring and attractive 🔥",
-  "Your laugh is the most beautiful sound I know 🎵",
-  "The way you think and express yourself is captivating 🧠✨",
+  "Your eyes hold entire universes of warmth and kindness ",
+  "The natural way you care for others makes you absolutely radiant ",
+  "The confidence you have is truly inspiring and attractive ",
+  "The way you think and express yourself is captivating ",
 ];
 
 export default function Compliments() {
@@ -67,6 +63,7 @@ export default function Compliments() {
             <button
               key={index}
               onClick={() => setCurrentIndex(index)}
+              title={`Go to compliment ${index + 1}`}
               className={`h-3 w-3 rounded-full transition-all ${
                 index === currentIndex
                   ? 'bg-red-500 scale-125'

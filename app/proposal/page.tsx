@@ -6,7 +6,6 @@ import Link from 'next/link';
 const pleadingMessages = [
   "Are you sure? 🥺",
   "Please reconsider... 💔",
-  "But I love you so much! 😭",
   "My heart can't take this... 💔💔",
   "Give me another chance! 🙏",
   "You're breaking my heart! 😢",
@@ -14,7 +13,7 @@ const pleadingMessages = [
   "Just say yes, please? 🥺🥺",
   "I can't live without hearing yes from you! 😩",
   "PLEASE!! 🙏💔✨",
-  "Okay, what if I get down on one knee? 💍",
+  "Okay, what if I get down on one knee? ",
 ];
 
 export default function Proposal() {
