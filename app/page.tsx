@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-rose-900 via-pink-700 to-red-600 relative overflow-hidden">
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-gray-950 via-red-950 to-gray-950 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-10 left-10 w-72 h-72 bg-red-400 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
@@ -14,8 +14,8 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center text-center px-6 py-8 gap-8 max-w-2xl relative z-10">
         <div className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-pink-200 to-red-200 animate-pulse drop-shadow-lg">
-             A Special Message to You, Dear 
+          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-black via-pink-200 to-red-200 animate-pulse drop-shadow-lg">
+             A Special Message to You. 
           </h1>
           
           <p className="text-xl md:text-2xl text-white leading-relaxed drop-shadow-md font-light">
@@ -28,8 +28,8 @@ export default function Home() {
         </div>
 
         <Link href="/compliments">
-          <button className="bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-red-500/50 backdrop-blur-sm border border-red-300 border-opacity-50">
-            Continue Reading ...
+          <button className="bg-gradient-to-r from-black to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-full text-xl transition-all transform hover:scale-110 shadow-2xl hover:shadow-red-500/50 backdrop-blur-sm border border-red-300 border-opacity-50">
+            Please Proceed ...
           </button>
         </Link>
       </main>
