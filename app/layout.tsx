@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Valentine's Proposal ",
+  title: "Te Amor",
   description: "A special Valentine's Day proposal with compliments, poems, and a beautiful ask",
 };
 

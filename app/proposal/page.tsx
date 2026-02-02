@@ -130,7 +130,7 @@ export default function Proposal() {
           <div className="bg-gray-900/80 border border-pink-500/40 rounded-2xl p-6 shadow-xl">
             <p className="text-pink-100 text-lg leading-relaxed">
               Await my gift  💕  
-              Forever starts now.
+              Forever starts now Muahhh.
             </p>
           </div>
 
